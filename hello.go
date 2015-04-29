@@ -9,7 +9,7 @@ type MainController struct {
 }
 
 func (this *MainController) Get() {
-	this.Ctx.WriteString("hello world - 1")
+	this.Ctx.WriteString("hello world - 2")
 }
 
 func main() {
